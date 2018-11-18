@@ -1,0 +1,115 @@
+ body,html
+ {
+	 height:100%;
+ }
+  /* nav-bar-styles-start */
+  .main-navbar
+  {
+	  background-color:white;	
+	  
+  }
+  
+	  
+  #navbarNav
+  {
+  justify-content: flex-end;
+  }
+  .logo
+  {
+	  height:50px;
+	  width:50%;}
+  .nav-link
+  {
+	  color:black;
+	  
+	  }
+  .nav-link:hover
+  {
+	  color:#c10927 !important;}
+  /* nav-bar-styles-end */
+  
+  
+  /* hero-img-styles-start */
+  
+	  
+	  .main-image
+	  {
+		  height:800px;
+		  width:100%
+		  margin-top:1em;
+		  background-image:url("images/kfc-baner.jpg");
+		  background-position:center;
+		  background-size:cover;
+		  background-repeat:no-repeat;
+	  }
+  /* hero-img-styles-end */
+  
+  
+  /* body-center-content-styles-start */
+  
+  .recipes-divs
+  {
+	  margin-top:1em;
+	  text-align: center;
+  }
+  .read-more
+  {
+	  text-align:end;
+  }
+  .cta-div:hover
+  {
+	  -webkit-box-shadow: 0px 2px 26px 1px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px 2px 26px 1px rgba(0,0,0,0.35);
+  box-shadow: 0px 2px 26px 1px rgba(0,0,0,0.35);
+  border-radius:25px;
+  }
+  .cta-div {
+	  margin-top:1em;
+	  padding:1em;
+  }
+  .cta-div h5
+  {
+	  margin:1em 0;
+  }
+  .cta-div img {
+	  width:100%;
+	  height::auto;
+	  margin-top:1em;
+  }
+  .cta-div h4
+	  {
+		  text-align:center;}
+  /* body-center-content-styles-end */
+  
+  /* footer-styles-start*/
+  footer
+  {
+	  margin-top:1em;
+	  background-color:#050404;
+		  text-align: center;
+		  margin-bottom: 0px;
+  }
+  .terms-cond
+  {display:flex;
+   padding:1em;
+   justify-conent:start;
+  }
+  .terms-cond p {
+  margin-right:1em;
+  color:grey;
+  }
+  .icon-sec
+  { float:right;
+	  }
+  i
+  {
+	  color:grey;
+	  font-size:1.5em;
+	  padding:0.5em 0.1em;
+	  
+	  }
+  
+	  
+	  
+  /* footer-styles-end*/
+  
