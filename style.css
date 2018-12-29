@@ -31,6 +31,9 @@
   
   /* hero-img-styles-start */
   
+img{
+width:100%;
+}
 	  
 	  .main-image
 	  {
